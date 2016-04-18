@@ -1,0 +1,13 @@
+2016-04-11T14:55:11.696+0300 I CONTROL  [initandlisten] MongoDB starting : pid=1278 port=27017 dbpath=/Users/cansu/data/db 64-bit host=cansu-MacBook-Air.local
+2016-04-11T14:55:11.697+0300 I CONTROL  [initandlisten] db version v3.2.4
+2016-04-11T14:55:11.697+0300 I CONTROL  [initandlisten] git version: e2ee9ffcf9f5a94fad76802e28cc978718bb7a30
+2016-04-11T14:55:11.697+0300 I CONTROL  [initandlisten] allocator: system
+2016-04-11T14:55:11.697+0300 I CONTROL  [initandlisten] modules: none
+2016-04-11T14:55:11.697+0300 I CONTROL  [initandlisten] build environment:
+2016-04-11T14:55:11.697+0300 I CONTROL  [initandlisten]     distarch: x86_64
+2016-04-11T14:55:11.697+0300 I CONTROL  [initandlisten]     target_arch: x86_64
+2016-04-11T14:55:11.697+0300 I CONTROL  [initandlisten] options: { config: "/Users/cansu/mongodb/mongod.conf", storage: { dbPath: "/Users/cansu/data/db" }, systemLog: { destination: "file", logAppend: true, path: "/Users/cansu/mongodb/mongod.log" } }
+2016-04-11T14:55:11.698+0300 E NETWORK  [initandlisten] listen(): bind() failed errno:48 Address already in use for socket: 0.0.0.0:27017
+2016-04-11T14:55:11.698+0300 E NETWORK  [initandlisten]   addr already in use
+2016-04-11T14:55:11.698+0300 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2016-04-11T14:55:11.698+0300 I CONTROL  [initandlisten] dbexit:  rc: 48
